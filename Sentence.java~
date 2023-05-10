@@ -1,0 +1,39 @@
+
+public class Sentence {
+
+    String sentence = null;
+
+    public void setSentence (String sentenceToBeStored)
+    {
+	sentence = sentenceToBeStored;
+    }
+
+    public String getSentence ()
+    {
+	return sentence;
+    }
+
+    public int length ()
+    {
+	return sentence.length();
+    }
+
+    public boolean startsRight ()
+    {
+	return (Character.isUpperCase(sentence.charAt(0)));
+    }
+
+    public boolean endsRight ()
+    {
+	return ( sentence.endsWith(".") || (Character.isLetter(sentence.charAt(sentence.length()-1))));
+    }
+
+    public int countLetters ()
+    {
+	// INSERT YOUR CODE HERE.
+
+	// Temporarily:
+	return -1;
+    }
+
+}
