@@ -1,0 +1,19 @@
+
+public class SentenceToolExample {
+
+    public static void main (String[] argv)
+    {
+	String s1 = "Colorless green ideas sleep furiously.";
+	String s2 = "try not to ever split infinitives";
+	String s3 = "This   sentence isfalse!";
+
+	System.out.println (SentenceTool.startsRight(s1) + "  " + SentenceTool.endsRight(s1));
+	System.out.println (SentenceTool.startsRight(s2) + "  " + SentenceTool.endsRight(s2));
+	System.out.println (SentenceTool.startsRight(s3) + "  " + SentenceTool.endsRight(s3));
+
+	System.out.println (SentenceTool.countLetters(s1) + " letters out of " + s1.length() + " chars");
+	System.out.println (SentenceTool.countLetters(s2) + " letters out of " + s2.length() + " chars");
+	System.out.println (SentenceTool.countLetters(s3) + " letters out of " + s3.length() + " chars");
+    }
+
+}

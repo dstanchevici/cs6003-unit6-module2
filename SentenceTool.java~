@@ -1,0 +1,22 @@
+
+public class SentenceTool {
+
+    public static boolean startsRight (String sentence)
+    {
+	return (Character.isUpperCase(sentence.charAt(0)));
+    }
+
+    public static boolean endsRight (String sentence)
+    {
+	return ( sentence.endsWith(".") || (Character.isLetter(sentence.charAt(sentence.length()-1))));
+    }
+
+    public static int countLetters (String sentence)
+    {
+	// INSERT YOUR CODE HERE
+
+	// Temporarily:
+	return -1;
+    }
+
+}
