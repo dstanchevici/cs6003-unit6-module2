@@ -1,0 +1,7 @@
+
+public class EvenBetterSentenceTool extends BetterSentenceToolSolution {
+
+    // WRITE YOUR CODE HERE to override countLetters() and countNonLetters(),
+    // checking for null.
+
+}
