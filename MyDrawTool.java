@@ -36,4 +36,22 @@ public class MyDrawTool extends DrawTool {
 	drawLine (x1,y1, x3,y3);
 	drawLine (x3,y3, x2,y2);	
     }
+
+    public static void drawConcentricCircles (double x, double y, String color)
+    {
+	// inherited from DrawTool
+	setCircleColor (color);
+
+	// inherited from DrawTool
+	drawCircle (x,y, 0.5);
+	drawCircle (x,y, 1.0);
+	drawCircle (x,y, 1.5);
+	
+    }
+
+    public static void drawArrow (double x1, double y1, double x2, double y2, String color)
+    {
+	setArrowColor (color);
+	drawArrow (x1, y1,  x2, y2);
+    }
 }

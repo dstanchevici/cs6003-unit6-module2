@@ -1,0 +1,24 @@
+
+public class MyDrawToolExample2 {
+
+    public static void main (String[] argv)
+    {
+	MyDrawTool.setXYRange (0,10, 0,10);
+	MyDrawTool.display ();
+
+	String[] colors = MyDrawTool.getColors ();
+
+	int N = 20;
+	
+	for (int i=0; i<N; i++) {
+
+	    // INSERT YOUR CODE HERE to:
+	    // 1. Make a random triangle by picking x,y values 
+	    //    in the range 0,10.
+	    // 2. Pick a random color from the array
+	    // 3. Draw the triangle.
+
+	}
+    }
+
+}
