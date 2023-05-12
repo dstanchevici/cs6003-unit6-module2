@@ -1,0 +1,9 @@
+class VisibilitySubclass extends VisibilityParent {
+
+    public static void main (String[] argv)
+    {
+	// Call a protected method in parent
+	printProtected ();
+    }
+
+}
